@@ -10,6 +10,21 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\SS5player">
+      <UniqueIdentifier>{58491ac1-6088-4b12-9af2-f28c6d4a2b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SS5player\common">
+      <UniqueIdentifier>{86818c22-877f-46f4-8330-aeca13e9f756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SS5player\common\Animator">
+      <UniqueIdentifier>{c2a323b2-c17f-485c-8c02-43c64af1d141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SS5player\common\Helper">
+      <UniqueIdentifier>{0c1a56e3-8d90-4b30-8140-c94cdf629b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SS5player\common\Loader">
+      <UniqueIdentifier>{2565f0d3-6c8a-4e45-bbe5-75b7a02b680c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -18,6 +33,24 @@
     <ClCompile Include="..\Classes\AppDelegate.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\SS5Player.cpp">
+      <Filter>src\SS5player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Helper\DebugPrint.cpp">
+      <Filter>src\SS5player\common\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Animator\ssplayer_effect.cpp">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Animator\ssplayer_effectfunction.cpp">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Animator\ssplayer_matrix.cpp">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Common\Animator\ssplayer_PartState.cpp">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -25,6 +58,54 @@
     </ClInclude>
     <ClInclude Include="..\Classes\AppDelegate.h">
       <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SS5Player.h">
+      <Filter>src\SS5player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SS5PlayerData.h">
+      <Filter>src\SS5player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ssShader_frag.h">
+      <Filter>src\SS5player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Helper\DebugPrint.h">
+      <Filter>src\SS5player\common\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Loader\SsEffectBehavior.h">
+      <Filter>src\SS5player\common\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Loader\SsEffectElement.h">
+      <Filter>src\SS5player\common\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Loader\ssloader.h">
+      <Filter>src\SS5player\common\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Loader\ssloader_ssee.h">
+      <Filter>src\SS5player\common\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Loader\sstypes.h">
+      <Filter>src\SS5player\common\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\MersenneTwister.h">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\ssplayer_cellmap.h">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\ssplayer_effect.h">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\ssplayer_effectfunction.h">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\ssplayer_macro.h">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\ssplayer_matrix.h">
+      <Filter>src\SS5player\common\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Common\Animator\ssplayer_PartState.h">
+      <Filter>src\SS5player\common\Animator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
