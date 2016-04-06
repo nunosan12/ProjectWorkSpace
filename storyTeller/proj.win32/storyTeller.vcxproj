@@ -150,6 +150,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClCompile Include="..\Classes\Common\Animator\ssplayer_matrix.cpp" />
     <ClCompile Include="..\Classes\Common\Animator\ssplayer_PartState.cpp" />
     <ClCompile Include="..\Classes\Common\Helper\DebugPrint.cpp" />
+    <ClCompile Include="..\Classes\MainScene.cpp" />
     <ClCompile Include="..\Classes\SS5Player\SS5Player.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -168,6 +169,7 @@ xcopy "$(ProjectDir)..\Resources" "$(OutDir)" /D /E /I /F /Y
     <ClInclude Include="..\Classes\Common\Loader\ssloader.h" />
     <ClInclude Include="..\Classes\Common\Loader\ssloader_ssee.h" />
     <ClInclude Include="..\Classes\Common\Loader\sstypes.h" />
+    <ClInclude Include="..\Classes\MainScene.h" />
     <ClInclude Include="..\Classes\SS5Player\SS5Player.h" />
     <ClInclude Include="..\Classes\SS5Player\SS5PlayerData.h" />
     <ClInclude Include="..\Classes\SS5Player\ssShader_frag.h" />

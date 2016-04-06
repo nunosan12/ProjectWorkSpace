@@ -51,6 +51,9 @@
     <ClCompile Include="..\Classes\Common\Helper\DebugPrint.cpp">
       <Filter>src\SS5PlayerCommon\Helper</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\MainScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -106,6 +109,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Common\Loader\sstypes.h">
       <Filter>src\SS5PlayerCommon\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MainScene.h">
+      <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
