@@ -7,7 +7,7 @@
 #include "ssplayer_cellmap.h"
 #include "ssplayer_PartState.h"
 #include "../Helper/DebugPrint.h"
-#include "../../SS5Player.h"
+#include "SS5Player/SS5Player.h"
 
 namespace ss
 {
